@@ -70,6 +70,7 @@ import com.intuit.ipp.services.QueryResult;
 @EnableScheduling
 public class G2GMicroServicioApplication extends SpringBootServletInitializer {
 
+//	VARIABLES DE ENTORNO
 	@Autowired
 	org.springframework.core.env.Environment env;
 	@Autowired
