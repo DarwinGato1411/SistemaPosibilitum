@@ -71,6 +71,7 @@ import com.intuit.ipp.services.QueryResult;
 public class G2GMicroServicioApplication extends SpringBootServletInitializer {
 
 //	VARIABLES DE ENTORNO
+//inyecta dependencias para el flujo
 	@Autowired
 	org.springframework.core.env.Environment env;
 	@Autowired
